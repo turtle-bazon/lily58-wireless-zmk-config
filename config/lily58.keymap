@@ -40,10 +40,10 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &trans        &trans        &trans       &kp LC(LA(D))  &trans  &kp DEL
-&trans      &trans        &trans        &trans        &trans        &trans                                 &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &trans  &kp EQUAL
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                              &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(W))  &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans        &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp LC(LA(E))  &trans  &kp PIPE
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &trans        &trans        &trans       &trans         &trans         &kp DEL
+&trans      &trans        &trans        &trans        &trans        &trans                                 &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &kp LC(LA(W))  &kp EQUAL
+&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                              &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(E))  &kp LC(LA(D))  &trans
+&trans      &trans        &trans        &trans        &trans        &trans        &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &trans         &trans         &kp PIPE
                                         &trans        &trans        &trans        &trans          &trans   &trans        &trans        &trans
             >;
         };
@@ -58,10 +58,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                            &trans        &trans        &trans       &kp LC(LA(D))  &trans  &kp DEL
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                            &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &trans  &kp EQUAL
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                            &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(W))  &trans  &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp LC(LA(E))  &trans  &kp BSLH
+&trans     &trans  &trans  &trans   &trans   &trans                            &trans        &trans        &trans       &trans         &trans         &kp DEL
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                            &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &kp LC(LA(W))  &kp EQUAL
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                            &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(E))  &kp LC(LA(D))  &trans
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &trans         &trans         &kp BSLH
                            &trans   &trans   &trans   &trans          &trans   &trans        &trans        &trans
             >;
         };
