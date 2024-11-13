@@ -15,6 +15,8 @@
             label = "LEFT_CTRL_ALT";
             #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp LALT>;
+
+            tapping-term-ms = <300>;
         };
 
         right_ctrl_alt: right_ctrl_alt {
@@ -22,6 +24,8 @@
             label = "RIGHT_CTRL_ALT";
             #binding-cells = <0>;
             bindings = <&kp RCTRL>, <&kp RIGHT_ALT>;
+
+            tapping-term-ms = <300>;
         };
     };
 
