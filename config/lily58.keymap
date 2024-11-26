@@ -29,6 +29,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        jkl-enter {
+            bindings = <&kp RET>;
+            key-positions = <30 31 32>;
+        };
+
+        dfg-enter {
+            bindings = <&kp RET>;
+            key-positions = <29 28 27>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
