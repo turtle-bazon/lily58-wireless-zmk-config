@@ -58,11 +58,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4          &kp N5                                         &kp N6  &kp N7           &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB    &kp Q   &kp W   &kp E     &kp R           &kp T                                          &kp Y   &kp U            &kp I      &kp O    &kp P     &kp MINUS
-&kp GRAVE  &kp A   &kp S   &kp D     &kp F           &kp G                                          &kp H   &kp J            &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp V           &kp B   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N   &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                           &kp LALT  &left_ctrl_alt  &mo 1   &kp SPACE           &kp SPACE          &mo 2   &right_ctrl_alt  &kp RALT
+&kp ESC    &kp N1        &kp N2  &kp N3      &kp N4          &kp N5                                             &kp N6      &kp N7           &kp N8      &kp N9   &kp N0           &kp BACKSPACE
+&kp TAB    &kp Q         &kp W   &kp E       &kp R           &kp T                                              &kp Y       &kp U            &kp I       &kp O    &kp P            &kp MINUS
+&kp GRAVE  &mt A LSHIFT  &kp S   &mt D LALT  &mt F LCTRL     &mt G LWIN                                         &mt H RWIN  &mt J RCTRL      &mt K RALT  &kp L    &mt SEMI RSHIFT  &kp APOS
+&kp LSHFT  &kp Z         &kp X   &kp C       &kp V           &kp B       &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N       &kp M            &kp COMMA   &kp DOT  &kp FSLH         &kp RSHIFT
+                                 &kp LALT    &left_ctrl_alt  &mo 1       &kp SPACE           &kp SPACE          &mo 2       &right_ctrl_alt  &kp RALT
             >;
         };
 
@@ -76,11 +76,11 @@
 
             display-name = "Lower";
             bindings = <
-&kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                  &kp F6        &kp F7        &kp F8       &kp F9         &kp F10        &kp DEL
-&kp F12  &trans  &trans  &trans  &trans  &kp PAGE_UP                             &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &kp LC(LA(W))  &kp EQUAL
-&trans   &trans  &trans  &trans  &trans  &kp PAGE_DOWN                           &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(E))  &kp LC(LA(D))  &kp BACKSLASH
-&trans   &trans  &trans  &trans  &trans  &trans         &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp PIPE       &kp KP_SLASH   &trans
-                         &trans  &trans  &trans         &kp RET         &kp RET  &trans        &trans        &trans
+&kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                      &kp F6        &kp F7        &kp F8       &kp F9         &kp F10        &kp DEL
+&kp F12  &trans  &trans  &trans  &trans  &kp PAGE_UP                                 &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &kp LC(LA(W))  &kp EQUAL
+&trans   &trans  &trans  &trans  &trans  &kp PAGE_DOWN                               &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(E))  &kp LC(LA(D))  &kp BACKSLASH
+&trans   &trans  &trans  &trans  &trans  &kp K_APPLICATION  &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp PIPE       &kp KP_SLASH   &trans
+                         &trans  &trans  &trans             &kp RET         &kp RET  &trans        &trans        &trans
             >;
         };
 
