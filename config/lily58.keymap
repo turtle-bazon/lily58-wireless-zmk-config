@@ -32,15 +32,15 @@
     combos {
         compatible = "zmk,combos";
 
-        jk-enter {
+        ju-enter {
             bindings = <&kp RET>;
-            key-positions = <32 31>;
+            key-positions = <31 19>;
             layers = <1 2>;
         };
 
-        df-enter {
+        dr-enter {
             bindings = <&kp RET>;
-            key-positions = <28 27>;
+            key-positions = <28 16>;
             layers = <1 2>;
         };
     };
