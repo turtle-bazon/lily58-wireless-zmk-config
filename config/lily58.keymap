@@ -43,11 +43,6 @@
             key-positions = <28 16>;
             layers = <1>;
         };
-
-        kb-ctrl {
-            bindings = <&mo 2>;
-            key-positions = <52 55>;
-        };
     };
 
     keymap {
@@ -85,7 +80,7 @@
 &kp F12  &trans  &trans  &trans    &trans  &kp PAGE_UP                             &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &kp LC(LA(W))  &kp EQUAL
 &trans   &trans  &trans  &trans    &trans  &kp PAGE_DOWN                           &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(E))  &kp LC(LA(D))  &kp BACKSLASH
 &trans   &trans  &trans  &trans    &trans  &kp K_APP      &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp PIPE       &kp KP_SLASH   &trans
-                         &kp LWIN  &trans  &trans         &kp RET         &kp RET  &trans        &trans        &kp RWIN
+                         &kp LWIN  &trans  &mo 2          &kp RET         &kp RET  &mo 2         &trans        &kp RWIN
             >;
         };
 
@@ -101,12 +96,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        kb_control_select {
-            if-layers = <1 2>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
