@@ -79,7 +79,7 @@
 &kp F11  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                 &kp F6        &kp F7        &kp F8       &kp F9         &kp F10        &kp DEL
 &kp F12  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                           &kp HOME      &kp UP        &kp END      &kp LC(LA(S))  &kp LC(LA(W))  &kp EQUAL
 &trans   &trans        &trans        &trans        &kp PG_UP     &kp PG_DN                              &kp LEFT      &kp DOWN      &kp RIGHT    &kp LC(LA(E))  &kp LC(LA(D))  &kp BACKSLASH
-&trans   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp PIPE       &kp KP_SLASH   &trans
+&trans   &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp CAPSLOCK    &kp INS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_PLUS  &kp PIPE       &kp KP_SLASH   &trans
                                      &kp LWIN      &trans        &mo 2         &kp RET         &kp RET  &mo 2         &trans        &kp RWIN
             >;
         };
